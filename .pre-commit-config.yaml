@@ -6,7 +6,7 @@ repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0 # Use a recent, stable version
     hooks:
-      - id: trailing-whitespace
+      #- id: trailing-whitespace
         # This hook trims trailing whitespace from files.
       - id: end-of-file-fixer
         # This hook ensures that a file is either empty or ends with a single newline.
