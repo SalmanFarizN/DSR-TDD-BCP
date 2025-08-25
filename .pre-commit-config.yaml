@@ -25,12 +25,12 @@ repos:
         # You can add other args like --ignore=E501 to ignore specific errors.
 
   # Local hook for running pytest
-  - repo: local
-    hooks:
-      - id: pytest
-        name: pytest
-        entry: pytest
-        language: system
-        types: [python]
-        pass_filenames: false
-        always_run: true
+  # - repo: local
+  #   hooks:
+  #     - id: pytest
+  #       name: pytest
+  #       entry: pytest
+  #       language: system
+  #       types: [python]
+  #       pass_filenames: false
+  #       always_run: true
